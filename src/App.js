@@ -1,19 +1,14 @@
-
-import Teste from "./Teste";
 import { GlobalStyles } from "./GlobalSytles";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Router from "./router";
 
 function App() {
 
   return (
     <>
       <GlobalStyles />
-      <Login />
+      <Router />
     </>
   );
 }
 
 export default App;
-
-
